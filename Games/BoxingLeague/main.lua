@@ -1,5 +1,5 @@
-local UI = loadstring(game:HttpGet('about:blank')) -- these will be changed later.
-local Logic = loadstring(game:HttpGet('about:blank')) -- these will be changed later.
+local UI = loadstring(game:HttpGet('https://raw.githubusercontent.com/CPU-Accelerator/TestBloxainUWP/refs/heads/main/UI/UISource.lua'))()
+local Logic = loadstring(game:HttpGet('https://raw.githubusercontent.com/CPU-Accelerator/TestBloxainUWP/refs/heads/main/Games/BoxingLeague/logic.lua'))()
 
 -- global variables
 pcall(function()
